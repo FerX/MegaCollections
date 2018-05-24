@@ -10,9 +10,9 @@ se utilizzato come modificatore parametri aggiuntivi sono separati con ||
 
 es. 
 ```
-[[mc_substr? &p1=`[[*pagatitle]]` &p2=`3` &p3=`6`]]
+[[mc_substr? &p1=`[[*pagetitle]]` &p2=`3` &p3=`6`]]
 
-[[*pagatitle:mc_substr=`3||6`]]  
+[[*pagetitle:mc_substr=`3||6`]]  
 ```
 
 Per la documentazione completa di ogni comando si invita a visionare il commento iniziale dello snippet.
