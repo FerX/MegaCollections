@@ -16,7 +16,7 @@ set_time_limit(0);
 define('PKG_NAME','MegaCollections');
 define('PKG_NAME_LOWER','megacollections');
 define('PKG_VERSION','1.0.0');
-define('PKG_RELEASE','beta5');
+define('PKG_RELEASE','stable');
 
 /* define build paths */
 $root = dirname(dirname(__FILE__)).'/';

@@ -1,1 +1,1 @@
-todo
+Please view readme on github: https://github.com/FerX/MegaCollections
