@@ -15,7 +15,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME','MegaCollections');
 define('PKG_NAME_LOWER','megacollections');
-define('PKG_VERSION','1.0.0');
+define('PKG_VERSION','1.0.1');
 define('PKG_RELEASE','stable');
 
 /* define build paths */
@@ -95,7 +95,7 @@ $attr = array(
     'authorUrl' => 'http://www.eracom.it',
     'authorSiteName' => "Eracom s.r.l.",
     // 'packageDocumentationUrl' => 'http://bobsguides.com/example-tutorial.html',
-    'copyright' => '2017',
+    'copyright' => '2018',
     /* no need to edit this except to change format */
     'createdon' => strftime('%m-%d-%Y'),
     'gitHubUsername' => 'FerX',

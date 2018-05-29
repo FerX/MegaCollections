@@ -1,1 +1,4 @@
+29/05/2018 - 1.0.1 stable
+correzione link alla documentazione php
+
 24/05/2018 - 1.0.0 stable
