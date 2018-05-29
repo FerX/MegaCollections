@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.strpos.php
+ * https://secure.php.net/manual/en/function.strpos.php
  * string strpos ( tring $haystack , mixed $needle [, int $offset = 0 ] )
  *
  * modx use:

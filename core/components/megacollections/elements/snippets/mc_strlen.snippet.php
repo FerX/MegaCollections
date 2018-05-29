@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.strlen.php
+ * https://secure.php.net/manual/en/function.strlen.php
  *
  * modx use:
  * [[*value:mc_strlen]]

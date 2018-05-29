@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.bin2hex.php
+ * https://secure.php.net/manual/en/function.bin2hex.php
  * string bin2hex ( string $str )
  *
  * modx use:

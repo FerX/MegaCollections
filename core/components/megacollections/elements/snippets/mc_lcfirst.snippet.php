@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.lcfirst.php
+ * https://secure.php.net/manual/en/function.lcfirst.php
  * string lcfirst ( string $str )
  *
  * modx use:

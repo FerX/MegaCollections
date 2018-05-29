@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.explode.php
+ * https://secure.php.net/manual/en/function.explode.php
  * array explode ( string $delimiter , string $string [, int $limit = PHP_INT_MAX ] )
  *
  * modx use:

@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.nl2br.php
+ * https://secure.php.net/manual/en/function.nl2br.php
  * string nl2br ( string $string [, bool $is_xhtml = true ] )
  *
  * modx use:

@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.ucwords.php
+ * https://secure.php.net/manual/en/function.ucwords.php
  * string ucwords ( string $str [, string $character_mask = " \t\n\r\0\x0B" ] )
  *
  * modx use:

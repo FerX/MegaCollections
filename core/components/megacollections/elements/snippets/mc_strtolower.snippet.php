@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.strtolower.php
+ * https://secure.php.net/manual/en/function.strtolower.php
  * string strtolower ( string $str )
  *
  * modx use:

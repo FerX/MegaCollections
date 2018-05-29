@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.count-chars.php
+ * https://secure.php.net/manual/en/function.count-chars.php
  * mixed count_chars ( string $string [, int $mode = 0 ] )
  *
  * modx use:

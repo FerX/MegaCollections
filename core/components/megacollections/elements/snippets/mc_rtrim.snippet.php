@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.rtrim.php
+ * https://secure.php.net/manual/en/function.rtrim.php
  * string rtrim ( string $str [, string $character_mask = " \t\n\r\0\x0B" ] )
  *
  * modx use:

@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.join.php
+ * https://secure.php.net/manual/en/function.join.php
  * array string join ( string $glue , array $pieces )
  *
  * json $input

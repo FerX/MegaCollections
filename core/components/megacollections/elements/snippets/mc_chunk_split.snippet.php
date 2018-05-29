@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.chunk-split.php
+ * https://secure.php.net/manual/en/function.chunk-split.php
  * string chunk_split ( string $body [, int $chunklen = 76 [, string $end = "\r\n" ]] )
  *
  * modx use:

@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.chr.php
+ * https://secure.php.net/manual/en/function.chr.php
  * string chr ( int $ascii )
  *
  * modx use:

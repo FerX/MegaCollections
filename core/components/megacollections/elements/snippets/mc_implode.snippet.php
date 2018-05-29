@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.implode.php
+ * https://secure.php.net/manual/en/function.implode.php
  * array string implode ( string $glue , array $pieces )
  *
  * json $input

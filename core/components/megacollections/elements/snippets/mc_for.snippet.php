@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP control structure: 
- * https://secure.mc_net/manual/en/control-structures.for.php
+ * https://secure.php.net/manual/en/control-structures.for.php
  *
  * for (expr1; expr2; expr3)
  *    statement

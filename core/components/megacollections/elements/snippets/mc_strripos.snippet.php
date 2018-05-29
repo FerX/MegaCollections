@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.strripos.php
+ * https://secure.php.net/manual/en/function.strripos.php
  * string strripos ( tring $haystack , mixed $needle [, int $offset = 0 ] )
  *
  * modx use:

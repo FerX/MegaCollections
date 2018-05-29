@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.wordwrap.php
+ * https://secure.php.net/manual/en/function.wordwrap.php
  * string wordwrap ( string $str [, int $width = 75 [, string $break = "\n" [, bool $cut = false ]]] )
  *
  * modx use:

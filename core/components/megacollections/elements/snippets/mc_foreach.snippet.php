@@ -1,7 +1,7 @@
 <?php
 /**
  * PHP control structure: 
- * https://secure.mc_net/manual/en/control-structures.foreach.php
+ * https://secure.php.net/manual/en/control-structures.foreach.php
  *
  * foreach (array_expression as $value)
  *     statement

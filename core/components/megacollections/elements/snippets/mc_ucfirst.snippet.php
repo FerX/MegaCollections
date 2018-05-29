@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.ucfirst.php
+ * https://secure.php.net/manual/en/function.ucfirst.php
  * string ucfirst ( string $str )
  *
  * modx use:

@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.str_repeat.php
+ * https://secure.php.net/manual/en/function.str_repeat.php
  * string str_repeat ( string $input , int $multiplier )
  *
  * modx use:

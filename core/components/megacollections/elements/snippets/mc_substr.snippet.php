@@ -2,7 +2,7 @@
 
 /**
  * PHP function: 
- * https://secure.mc_net/manual/en/function.substr.php
+ * https://secure.php.net/manual/en/function.substr.php
  * string substr ( string $string , int $start [, int $length ] )
  *
  * modx use:
