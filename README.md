@@ -95,6 +95,16 @@ From tv image:
 
 ```
 
+## ENV Variable
+
+#### mc_get, mc_post, mc_request
+
+Recupera la variabile se impostanta altrimenti prende valore di default
+```
+[[!mc_get? &name=`nomevar` &default=``]]
+[[!mc_post? &name=`nomevar` &default=``]]
+[[!mc_request? &name=`nomevar` &default=``]]
+```
 
 
 ## PHP Costrunct:
