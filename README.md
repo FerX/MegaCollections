@@ -19,8 +19,29 @@ Per la documentazione completa di ogni comando si invita a visionare il commento
 
 Le funzioni che trattano gli array (es. explode,implode,foreach) richiedono formato Json
 
+------
 ## Comandi Speciali:
 
+#### mc_field
+Recupera un campo da una risorsa: 
+ 
+**&id** id della risorsa (se non specificato cerca di recuperare la isorsa corrente)
+
+**&field** nome del campo, se non specificato prende pagetitle
+
+**&default** valore da resistuire se non trova la risorsa o il campo ichiesto
+
+**&parent** risale al genitore specificato di n volte
+
+ ```
+[[mc_field? &id=`1`]] - recupera il pagetitle della risorsa umero 1
+
+[[mc_field? &id=`1` &field=`tvField`]] - recupera la tv variable ella risorsa 1
+
+[[mc_field? &parent=`1`]] - recupera il page title della risorsa enitore di quella corrente
+```
+
+------
 #### mc_ph
 Consente di impostare, modificare od eliminare un placeholder
 
@@ -54,8 +75,12 @@ you can use parameter &where and &sort
 ```
 [[mc_ph? &var=`newvar` &del=`1`]]
 ```
-#### mc_json.sort
 
+
+------
+## Elaborazione JSON:
+
+#### mc_json.sort
 Sort json data, return json
 Sort order: asc,desc,rand,random,ASC,DESC,RAND,RANDOM
 
@@ -68,6 +93,7 @@ Sort order: asc,desc,rand,random,ASC,DESC,RAND,RANDOM
 
 ```
 
+------
 #### mc_json.where
 
 Filter json data, return json.
@@ -77,6 +103,8 @@ Filter json data, return json.
 [[mc_json.where? &json=`[{"name":"Joe","sex":"male"},{"name":"Rose","sex":"female"}]` &where=`{"sex":"male"}`]]
 ```
 
+------
+## Completamento media source
 
 #### mc_media.url
 
@@ -95,10 +123,10 @@ From tv image:
 
 ```
 
+------
 ## ENV Variable
 
 #### mc_get, mc_post, mc_request
-
 Recupera la variabile se impostanta altrimenti prende valore di default
 ```
 [[!mc_get? &name=`nomevar` &default=``]]
@@ -107,10 +135,10 @@ Recupera la variabile se impostanta altrimenti prende valore di default
 ```
 
 
+------
 ## PHP Costrunct:
 
 #### mc_if
-
 ```
 [[*value:mc_if=`b`:then=``:else=``]]
 [[*value:mc_if=`==||b`:then=``:else=``]]
@@ -122,6 +150,7 @@ Recupera la variabile se impostanta altrimenti prende valore di default
 [[mc_if? &p1=`a` &p2=`==` &p3=`b` &then=`...then..` &else=`..else..`]]
 ```
 
+------
 #### mc_switch
 
 ```
@@ -133,12 +162,14 @@ Recupera la variabile se impostanta altrimenti prende valore di default
 ]]
 ```
 
+------
 #### mc_for
 
 ```
 [[mc_for? &var=`x` &start=`1` &stop=`10` &inc=`1` &tpl=`tplfor`]]
 ```
 
+------
 #### mc_foreach
 
 ```
@@ -157,6 +188,7 @@ You can use where and sort parameter.
 
 
 
+------
 
 ## PHP Function:
 

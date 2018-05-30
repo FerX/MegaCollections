@@ -1,4 +1,15 @@
+29/05/2018 - 1.1.0 stable
+-------------------------
+aggiunte snippet:
+mc_get, mc_post, mc_request per recuperare variabili di ambiente
+mc_field per recuperare un campo specifico di una risorsa
+
+
 29/05/2018 - 1.0.1 stable
+-------------------------
 correzione link alla documentazione php
 
+
 24/05/2018 - 1.0.0 stable
+-------------------------
+inizio progetto
