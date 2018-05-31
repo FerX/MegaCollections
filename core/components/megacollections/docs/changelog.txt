@@ -1,3 +1,9 @@
+31/05/2018 - 1.2.0 stable
+-------------------------
+aggiunti snippet:
+mc_mailantispam - doppio sistema di codifica per proteggere email (encoding + javascript)
+mc_getfeedrss - recupera e visualizza un feed rss 
+
 29/05/2018 - 1.1.0 stable
 -------------------------
 aggiunte snippet:

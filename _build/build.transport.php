@@ -15,7 +15,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME','MegaCollections');
 define('PKG_NAME_LOWER','megacollections');
-define('PKG_VERSION','1.1.0');
+define('PKG_VERSION','1.2.0');
 define('PKG_RELEASE','stable');
 
 /* define build paths */

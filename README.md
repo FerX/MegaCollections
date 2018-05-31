@@ -22,6 +22,39 @@ Le funzioni che trattano gli array (es. explode,implode,foreach) richiedono form
 ------
 ## Comandi Speciali:
 
+
+#### mc_mailantispam
+protegge le email codificandole con doppia tecnologia, html+js
+
+```
+[[*mail:mc_mailantispam]]
+[[mc_mailantispam? &mail=`test@example.com`]]
+
+[[*mail:mc_mailantispam=`1`]]
+[[mc_mailantispam? &mail=`test@example.com` &link=`1`]]
+
+puoi specificare anche delle classi css per il tag
+[[mc_mailantispam? &mail=`test@example.com` &link=`1` &class=`linkmail`]]
+
+in determinate situazioni è necessario disattivare l'output in js
+[[mc_mailantispam? &mail=`test@example.com` &link=`1` &js=`0`]]
+```
+
+#### mc_getfeedrss
+legge un feed rss e genera un output
+
+ [[mc_getfeedrss?
+  &url=``
+  &tpl=``
+  &wrapperTpl=``
+  &limit=``
+  &offset=``
+  $toPlaceholder=``
+ ]]
+
+
+
+------
 #### mc_field
 Recupera un campo da una risorsa: 
  
