@@ -12,7 +12,7 @@ $name = $modx->getOption('name', $scriptProperties, '');
 $default = $modx->getOption('default', $scriptProperties, '');
 
 if(isset($_REQUEST[$name])){
-    return $name;
+    return $_REQUEST[$name];
 }
 return $default;
 

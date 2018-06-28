@@ -12,7 +12,7 @@ $name = $modx->getOption('name', $scriptProperties, '');
 $default = $modx->getOption('default', $scriptProperties, '');
 
 if(isset($_POST[$name])){
-    return $name;
+    return $_POST[$name];
 }
 return $default;
 
